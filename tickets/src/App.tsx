@@ -1,15 +1,15 @@
-import {type SanityConfig} from '@sanity/sdk'
-import {SanityApp} from '@sanity/sdk-react'
-import {Flex, Spinner} from '@sanity/ui'
-import {ExampleComponent} from './ExampleComponent'
-import {SanityUI} from './SanityUI'
+import { type SanityConfig } from '@sanity/sdk'
+import { SanityApp } from '@sanity/sdk-react'
+import { Flex, Spinner } from '@sanity/ui'
+import { Events } from './Events'
+import { SanityUI } from './SanityUI'
 
 function App() {
   // apps can access many different projects or other sources of data
   const sanityConfigs: SanityConfig[] = [
     {
-      projectId: '',
-      dataset: '',
+      projectId: '6koo24mx',
+      dataset: 'production',
     }
   ]
 
@@ -24,8 +24,8 @@ function App() {
   return (
     <SanityUI>
       <SanityApp config={sanityConfigs} fallback={<Loading />}>
-        {/* add your own components here! */}
-        <ExampleComponent />
+      <h1>hello</h1>
+        <Events />
       </SanityApp>
     </SanityUI>
   );

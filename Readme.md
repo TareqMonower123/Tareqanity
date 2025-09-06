@@ -1,6 +1,6 @@
-## Tareqanity
+# Tareqanity
 
-# Learning Sanity
+## Learning Sanity
 
 This repository is a collection of my learnings and experiments with Sanity.io.
 

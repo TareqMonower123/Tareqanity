@@ -86,11 +86,11 @@ __turbopack_context__.s([
     "sanityFetch",
     ()=>sanityFetch
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$sanity$2b$next$2d$loader$40$2$2e$1$2e$1_$40$_f9d18add986d9a0d2e76f291afad64ec$2f$node_modules$2f40$sanity$2f$next$2d$loader$2f$dist$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/index.js [app-rsc] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$sanity$2b$next$2d$loader$40$2$2e$1$2e$1_$40$sanity$2b$types$40$4$2e$6$2e$1_$40$types$2b$react$40$19$2e$1$2e$12_$5f$next$40$15$2e$5$2e$2_react$2d$d_f9d18add986d9a0d2e76f291afad64ec$2f$node_modules$2f40$sanity$2f$next$2d$loader$2f$dist$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/index.js [app-rsc] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$sanity$2f$client$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/web/src/sanity/client.ts [app-rsc] (ecmascript)");
 ;
 ;
-const { sanityFetch, SanityLive } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$sanity$2b$next$2d$loader$40$2$2e$1$2e$1_$40$_f9d18add986d9a0d2e76f291afad64ec$2f$node_modules$2f40$sanity$2f$next$2d$loader$2f$dist$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["defineLive"])({
+const { sanityFetch, SanityLive } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$sanity$2b$next$2d$loader$40$2$2e$1$2e$1_$40$sanity$2b$types$40$4$2e$6$2e$1_$40$types$2b$react$40$19$2e$1$2e$12_$5f$next$40$15$2e$5$2e$2_react$2d$d_f9d18add986d9a0d2e76f291afad64ec$2f$node_modules$2f40$sanity$2f$next$2d$loader$2f$dist$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["defineLive"])({
     client: __TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$sanity$2f$client$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["client"]
 });
 }),

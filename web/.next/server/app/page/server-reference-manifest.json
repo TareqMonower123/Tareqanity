@@ -1,34 +1,34 @@
 {
   "node": {
-    "7f994330fa35d917285892fb0ed9714615c54c7d07": {
+    "7fea3f509b1cdccb09a261121b7fbee5dc4a9325a3": {
       "workers": {
         "app/page": {
-          "moduleId": "[project]/web/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/web/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "revalidateSyncTags",
-          "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
+          "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
         }
       },
       "layer": {
         "app/page": "action-browser"
       },
       "exportedName": "revalidateSyncTags",
-      "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
+      "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
     },
-    "7f0d4b7bf1acca71591afc893f33ff48cdf1d77971": {
+    "7fdb55a2cfff79f604205986460dc68f0335921fa9": {
       "workers": {
         "app/page": {
-          "moduleId": "[project]/web/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/web/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "setPerspectiveCookie",
-          "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
+          "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
         }
       },
       "layer": {
         "app/page": "action-browser"
       },
       "exportedName": "setPerspectiveCookie",
-      "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
+      "filename": "node_modules/.pnpm/@sanity+next-loader@2.1.1_@sanity+types@4.6.1_@types+react@19.1.12__next@15.5.2_react-d_f9d18add986d9a0d2e76f291afad64ec/node_modules/@sanity/next-loader/dist/server-actions.js"
     }
   },
   "edge": {}

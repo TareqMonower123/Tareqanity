@@ -7,7 +7,7 @@ export default defineBlueprint({
       event: {
         includeAllVersions: true,
         on: ['create', 'update'],
-        filter: '_type == event && !defined(firstPublished)',
+        filter: '_type == "event" && !defined(firstPublished)',
       },
     }),
   ],

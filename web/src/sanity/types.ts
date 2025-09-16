@@ -21,7 +21,7 @@ export type Event = {
   _rev: string;
   name?: string;
   slug?: Slug;
-  eventType?: string;
+  eventType?: "online" | "in-person";
   date?: string;
   doorsOpen?: number;
   venue?: {
@@ -67,6 +67,7 @@ export type Event = {
     _key: string;
   }>;
   tickets?: string;
+  firstPublished?: string;
 };
 
 export type Venue = {
@@ -233,7 +234,7 @@ export type EVENT_QUERYResult = {
   _rev: string;
   name?: string;
   slug?: Slug;
-  eventType?: string;
+  eventType?: "in-person" | "online";
   date: string;
   doorsOpen: number | 0;
   venue: {
@@ -298,6 +299,7 @@ export type EVENT_QUERYResult = {
     _key: string;
   }>;
   tickets?: string;
+  firstPublished?: string;
 } | null;
 
 // Source: ../web/src/app/page.tsx

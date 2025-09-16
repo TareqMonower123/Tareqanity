@@ -52,7 +52,17 @@
       "eventType": {
         "type": "objectAttribute",
         "value": {
-          "type": "string"
+          "type": "union",
+          "of": [
+            {
+              "type": "string",
+              "value": "online"
+            },
+            {
+              "type": "string",
+              "value": "in-person"
+            }
+          ]
         },
         "optional": true
       },
@@ -379,6 +389,13 @@
         "optional": true
       },
       "tickets": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "firstPublished": {
         "type": "objectAttribute",
         "value": {
           "type": "string"

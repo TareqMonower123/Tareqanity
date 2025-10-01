@@ -401,6 +401,23 @@
           "type": "string"
         },
         "optional": true
+      },
+      "format": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "union",
+          "of": [
+            {
+              "type": "string",
+              "value": "in-person"
+            },
+            {
+              "type": "string",
+              "value": "virtual"
+            }
+          ]
+        },
+        "optional": true
       }
     }
   },

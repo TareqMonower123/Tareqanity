@@ -27,19 +27,19 @@ export const eventType = defineType({
       validation: (Rule) => Rule.required().error('A slug is required'),
       hidden: ({document}) => !document?.name,
       group: 'details',
-    /**
-     * Only allow non-admin users to edit the value if it already exists.
-     * If the value does not exist, allow all users to create it.
-     * @param {Object} value - The current value of the field.
-     * @param {Object} currentUser - The currently logged-in user.
-     */
-     readOnly: ({value, currentUser}) => {
+      /**
+       * Only allow non-admin users to edit the value if it already exists.
+       * If the value does not exist, allow all users to create it.
+       * @param {Object} value - The current value of the field.
+       * @param {Object} currentUser - The currently logged-in user.
+       */
+      readOnly: ({value, currentUser}) => {
         if (!value) {
           return false
         }
         const isAdmin = currentUser?.roles.some((role) => role.name === 'administrator')
         return !isAdmin
-    },
+      },
     }),
     defineField({
       name: 'eventType',
@@ -52,6 +52,18 @@ export const eventType = defineType({
         layout: 'radio',
       },
       group: 'details',
+      deprecated: {
+        reason: 'This field is no longer used. Use `format` instead.',
+      },
+     readOnly: true,
+    }),
+    defineField({
+      name: 'format',
+      type: 'string',
+      options: {
+        list: ['in-person', 'virtual'],
+        layout: 'radio',
+      },
     }),
     defineField({
       name: 'date',
@@ -64,9 +76,9 @@ export const eventType = defineType({
       type: 'number',
       initialValue: 60,
       group: 'details',
-      components:{
-        input: DoorsOpenInput
-      }
+      components: {
+        input: DoorsOpenInput,
+      },
     }),
     defineField({
       name: 'venue',

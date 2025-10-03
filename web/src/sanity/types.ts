@@ -22,6 +22,7 @@ export type Event = {
   name?: string;
   slug?: Slug;
   eventType?: "online" | "in-person";
+  format?: "in-person" | "virtual";
   date?: string;
   doorsOpen?: number;
   venue?: {
@@ -68,7 +69,6 @@ export type Event = {
   }>;
   tickets?: string;
   firstPublished?: string;
-  format?: "in-person" | "virtual";
 };
 
 export type Venue = {
@@ -236,6 +236,7 @@ export type EVENT_QUERYResult = {
   name?: string;
   slug?: Slug;
   eventType?: "in-person" | "online";
+  format?: "in-person" | "virtual";
   date: string;
   doorsOpen: number | 0;
   venue: {
@@ -301,7 +302,6 @@ export type EVENT_QUERYResult = {
   }>;
   tickets?: string;
   firstPublished?: string;
-  format?: "in-person" | "virtual";
 } | null;
 
 // Source: ../web/src/app/page.tsx
